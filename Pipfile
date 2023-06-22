@@ -4,7 +4,8 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-
+streamlit = "~=0.86"
+nanonets = "==0.0.6"
 [dev-packages]
 
 [requires]

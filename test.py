@@ -1,7 +1,6 @@
 import streamlit as st
 from nanonets import NANONETSOCR
 import tempfile
-import os
 
 def process_file(uploaded_file):
     model = NANONETSOCR()
